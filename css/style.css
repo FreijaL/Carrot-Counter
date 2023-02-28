@@ -8,9 +8,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-image: url(https://images.unsplash.com/photo-1547623641-d2c56c03e2a7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fGJhY2tncm91bmQlMjBpbWFnZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #AF929D;
     font-family: 'Labrada', serif;
 }
 
@@ -22,15 +20,15 @@ header {
 }
 
 .group-counter-sidebar {
-    width: 25%;
+    width: 20%;
     height: 20%;
     position: absolute;
     bottom: 2.5rem;
     left: 0;
     padding-top: 3rem;
-    padding-left: 3rem;
-    border: 1px solid rgb(197, 197, 197);
-    border-radius: 1rem;
+    margin-left: 3rem;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
 }
 
 .group-counter-container {
@@ -83,8 +81,7 @@ main {
     top: 2.5rem;
     right: 0;
     padding-top: 3rem;
-    border: 1px solid rgb(197, 197, 197);
-    border-radius: 1rem;
+    border-left: 2px solid black;
 }
 
 .task-sidebar h3 {
@@ -118,3 +115,4 @@ main {
     border-radius: 10px;
     margin-left: 1rem;
 }
+

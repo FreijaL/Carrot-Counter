@@ -1,6 +1,7 @@
 const groupCounterContainer = document.querySelector('.group-counter-container');
 const weeklyPointsContainer = document.querySelector('.weekly-points-container');
-
+const playBtn = document.querySelector('.play-song-btn');
+const createTaskBtn = document.querySelector('.create-task-btn');
 
 
 
