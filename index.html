@@ -4,14 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Labrada:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>Carrot Counter</title>
 </head>
 <body>
+    <header>
+        <h1>CARROT COUNTER</h1>
+    </header>
+    <aside class="group-counter-sidebar">
+        <section class="group-counter-container">
+            <h3 class="group-counter-heading">Gemensam poängställning:</h3>
+            <!-- SKAPA EN COUNTER VIA JS -->
+        </section>
+    </aside>
+    <main>
+        <section class="weekly-points-container">
+            <!-- EV RENDERAR VI UT H2 "veckans poäng:" + "poängställning" via js:en -->
+            <h2>Veckans poäng:</h2>
+        </section>
+        <div class="play-song-container">
+            <button class="play-song-btn">PLAY SONG</button>
+        </div>
+        <section class="random-fact-container">
+            <h4>Daglig fun fact om någon av dina kollegor:</h4>
+            <h5 class="daily-fact"></h5>
+        </section>
+    </main>
+    <aside class="task-sidebar">
+        <h3>TO DO</h3>
 
-    <h1>HEJ BERAT O MALEK</h1>
-
-
+        <section class="to-do-container">
+            <input type="checkbox" name="to-do-task" id="to-do-task-1" class="to-do-list">
+            <label for="to-do-task-1">Boka kundmöte</label>
+        </section> 
+        <section class="to-do-container">
+            <input type="checkbox" name="to-do-task" id="to-do-task-2" class="to-do-list">
+            <label for="to-do-task-2">Möte med teamet</label>
+        </section>  
+        <section class="to-do-container">
+            <input type="checkbox" name="to-do-task" id="to-do-task-3" class="to-do-list">
+            <label for="to-do-task-3">Dokumentera</label>
+        </section>
+        <section class="to-do-container">
+            <input type="checkbox" name="to-do-task" id="to-do-task-4" class="to-do-list">
+            <label for="to-do-task-4">Boka kundmöte</label>
+        </section>
+        <section class="to-do-container">
+            <input type="checkbox" name="to-do-task" id="to-do-task-5" class="to-do-list">
+            <label for="to-do-task-5">Möte med teamet</label>
+        </section>
+        <section class="to-do-container">
+            <input type="checkbox" name="to-do-task" id="to-do-task-6" class="to-do-list">
+            <label for="to-do-task-6">Dokumentera</label>
+        </section>
+        <section class="new-to-do-container">
+            <input type="text" class="create-task-input">
+            <button class="create-task-btn">Ny task</button>
+        </section>
+    </aside>
 
     <script src="./js/script.js"></script>
 </body>
