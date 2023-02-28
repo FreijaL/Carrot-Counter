@@ -8,7 +8,9 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(45deg, white, rgb(24, 98, 201) 80%);
+    background-image: url(https://images.unsplash.com/photo-1547623641-d2c56c03e2a7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fGJhY2tncm91bmQlMjBpbWFnZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Labrada', serif;
 }
 
@@ -56,7 +58,6 @@ main {
     border-radius: 5rem;
     padding: 1.5rem 3rem;
     background-color: rgb(89, 154, 86);
-    color: white;
 }
 
 .play-song-btn:hover {
@@ -84,7 +85,6 @@ main {
     padding-top: 3rem;
     border: 1px solid rgb(197, 197, 197);
     border-radius: 1rem;
-    color: white;
 }
 
 .task-sidebar h3 {

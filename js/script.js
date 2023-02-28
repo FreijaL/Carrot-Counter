@@ -1,5 +1,11 @@
 
 // SPOTIFY Api embedding.
+const groupCounterContainer = document.querySelector('.group-counter-container');
+const weeklyPointsContainer = document.querySelector('.weekly-points-container');
+
+
+
+
 window.onSpotifyIframeApiReady = (IFrameAPI) => {
     let element = document.getElementById('embed-iframe');
     let options = {
@@ -12,4 +18,4 @@ window.onSpotifyIframeApiReady = (IFrameAPI) => {
   };
 
 
-  
+
