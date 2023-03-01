@@ -39,12 +39,26 @@
     </main>
     <aside class="task-sidebar">
         <h3>TO DO</h3>
+        <ul class="to-do__container">
+            <li class="to-do__items">
+                <input type="checkbox" name="to-do-task" id="to-do-task-1" class="to-do-list">
+                <label for="to-do__item"></label>
+                <button class="delete">Delete</button>
+            </li>   
+        </ul>
         
-        <section class="to-do-container">
-            <input type="checkbox" name="to-do-task" id="to-do-task-1" class="to-do-list">
-            <label for="to-do-task-1">Boka kundmöte</label>
+        <ul class="completed__container">
+            <li class="completed__items">
+                <input type="checkbox" name="to-do-task" id="to-do-task-1" class="to-do-list">
+                <label for="completed-item"></label>
+            </li>   
+        </ul>
+
+        <section class="new-to-do-container">
+            <input type="text" class="create-task-input">
+            <button class="create-task-btn">Ny task</button>
         </section> 
-        <section class="to-do-container">
+        <!-- <section class="to-do-container">
             <input type="checkbox" name="to-do-task" id="to-do-task-2" class="to-do-list">
             <label for="to-do-task-2">Möte med teamet</label>
         </section>  
@@ -63,11 +77,8 @@
         <section class="to-do-container">
             <input type="checkbox" name="to-do-task" id="to-do-task-6" class="to-do-list">
             <label for="to-do-task-6">Dokumentera</label>
-        </section>
-        <section class="new-to-do-container">
-            <input type="text" class="create-task-input">
-            <button class="create-task-btn">Ny task</button>
-        </section>
+        </section>-->
+    
     </aside>
 
     <script src="./js/script.js"></script>
