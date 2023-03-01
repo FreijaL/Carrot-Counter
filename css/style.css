@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Labrada:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 * {
     box-sizing: border-box;
@@ -8,9 +8,8 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-color: #AF929D;
-    font-family: 'Labrada', serif;
-}
+    background-color: #9298af;
+    font-family: 'Open Sans', sans-serif;}
 
 header {
     width: 100%;
@@ -47,6 +46,11 @@ main {
     margin-top: 3rem;
 }
 
+#embed-iframe {
+    width: 15rem;
+    height: auto;
+}
+
 .weekly-points-container {
     margin-bottom: 2rem;
 }
@@ -62,6 +66,7 @@ main {
     background-color: rgb(73, 140, 73);
     border-color: black;
     color: black;
+    cursor: pointer;
 }
 
 .play-song-btn:active {
@@ -106,7 +111,9 @@ main {
 .create-task-input {
     all: unset;
     background-color: transparent;
-    border-bottom: 2px solid black;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: .3rem;
 }
 
 .create-task-btn {
@@ -114,5 +121,15 @@ main {
     border: 1px solid black;
     border-radius: 10px;
     margin-left: 1rem;
+}
+
+.create-task-btn:hover {
+    background-color: rgb(159, 159, 159);
+    cursor: pointer;
+}
+
+.create-task-btn:active {
+    background-color: rgb(93, 93, 93);
+    color: white;
 }
 
