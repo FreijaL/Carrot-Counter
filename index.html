@@ -41,20 +41,27 @@
         <h3>TO DO</h3>
         <ul class="to-do__container">
             <li class="to-do__items">
-                <input type="checkbox" name="to-do-task" id="to-do-task-1" class="to-do-list">
+                <input type="checkbox" name="to-do-task" id="to-do-task-1" class="checkbox">
+                <label for="to-do__item"></label>
+                <button class="delete">Delete</button>
+            </li>   
+            <li class="to-do__items">
+                <input type="checkbox" name="to-do-task" id="to-do-task-1" class="checkbox">
                 <label for="to-do__item"></label>
                 <button class="delete">Delete</button>
             </li>   
         </ul>
         
-        <ul class="completed__container">
-            <li class="completed__items">
-                <input type="checkbox" name="to-do-task" id="to-do-task-1" class="to-do-list">
+        <h3>COMPLETED</h3>
+        <ul class="to-do__container">
+            <li class="to-do__items to-do__items--completed">
+                <input type="checkbox" name="to-do-task" id="to-do-task-1" class="checkbox">
                 <label for="completed-item"></label>
+                <button class="delete">Delete</button>
             </li>   
         </ul>
 
-        <section class="new-to-do-container">
+        <section class="to-do__add">
             <input type="text" class="create-task-input">
             <button class="create-task-btn">Ny task</button>
         </section> 
